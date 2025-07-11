@@ -3,5 +3,5 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "conflict-demo-rg"
+  name     = "conflict-demo-cs1"
   loc      = "West US"
